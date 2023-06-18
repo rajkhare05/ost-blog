@@ -1,0 +1,33 @@
+.job-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 3px;
+    width: 700px;
+    box-shadow: 4px 4px 15px grey;
+    padding: 15px 15px;
+
+    .role {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .organization {
+        font-size: 18px;
+    }
+
+    .skills {
+        font-size: 15px;
+    }
+
+    .posted-on {
+        margin-top: 5px;
+    }
+
+    .posted-on, .ends-on {
+        font-size: 13px;
+        color: grey;
+    }
+
+}
+

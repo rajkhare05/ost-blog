@@ -1,0 +1,45 @@
+.header-container {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.header-container > header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+
+    .blog-title {
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .profile-pic {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+    .bar, .half-bar {
+        border: 3px solid black;
+        border-radius: 12px;
+    }
+
+    .bar {
+        width: 35px;
+    }
+
+    .half-bar {
+        width: 17px;
+    }
+
+
+}
+
+

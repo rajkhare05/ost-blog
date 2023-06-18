@@ -1,0 +1,14 @@
+.blog {
+    margin-left: 250px;
+    padding: 35px 0;
+
+    .blog-list {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        row-gap: 35px;
+        column-gap: 10px;
+    }
+
+}
+

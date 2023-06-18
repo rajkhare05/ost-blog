@@ -1,0 +1,35 @@
+.event-card {
+    display: flex;
+    box-shadow: 2px 7px 15px grey;
+    column-gap: 12px;
+
+    .event-image {
+        width: 300px;
+        height: 130px;
+    }
+
+    .event-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .event-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .event-summary {
+            font-size: 18px;
+            margin-top: -7px;
+        }
+
+        .event-location-datetime {
+            justify-self: flex-end;
+            display: flex;
+            column-gap: 20px;
+            color: grey;
+            font-size: 13px;
+        }
+    }
+}
+

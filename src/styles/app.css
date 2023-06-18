@@ -1,0 +1,19 @@
+.pane {
+    display: flex;
+    padding: 0 40px;
+}
+
+.sidebar {
+    position: fixed;
+}
+
+.blog {
+    overflow: auto;
+}
+
+.spinner-container {
+    position: absolute;
+    margin-top: 6%;
+    padding-left: 37%;
+}
+

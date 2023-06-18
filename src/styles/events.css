@@ -1,0 +1,8 @@
+.events {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 25px 0;
+    margin-left: 270px;
+}
+
